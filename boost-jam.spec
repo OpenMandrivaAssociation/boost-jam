@@ -1,5 +1,5 @@
 %define	name	boost-jam
-%define	version 3.1.13
+%define	version 3.1.14
 %define	release	1
 
 Summary:	Build tool for Boost libraries
