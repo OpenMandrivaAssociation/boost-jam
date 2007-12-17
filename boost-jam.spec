@@ -11,7 +11,6 @@ Source0:	http://download.sourceforge.net/boost/%{name}-%{version}.tar.bz2
 License: 	GPL
 Group: 		Development/Other
 Buildrequires:	byacc
-BuildRoot: 	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 Boost Jam is a build tool based on FTJam, which in turn is based on 
