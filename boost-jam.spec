@@ -1,13 +1,13 @@
 %define	name	boost-jam
-%define	version 3.1.14
-%define	release	2
+%define	version 3.1.16
+%define	release	1
 
 Summary:	Build tool for Boost libraries
 Name:		%{name}
 Version:	%{version}
 Release:	%mkrel %{release}
 URL:		http://www.boost.org/
-Source0:	http://download.sourceforge.net/boost/%{name}-%{version}.tar.bz2
+Source0:	http://download.sourceforge.net/boost/%{name}-%{version}.tgz
 License: 	GPL
 Group: 		Development/Other
 Buildrequires:	byacc
