@@ -1,5 +1,5 @@
 %define	name	boost-jam
-%define	version 3.1.16
+%define	version 3.1.17
 %define	release	1
 
 Summary:	Build tool for Boost libraries
@@ -8,7 +8,7 @@ Version:	%{version}
 Release:	%mkrel %{release}
 URL:		http://www.boost.org/
 Source0:	http://download.sourceforge.net/boost/%{name}-%{version}.tgz
-License: 	GPL
+License: 	Boost
 Group: 		Development/Other
 Buildrequires:	byacc
 BuildRoot: 	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
@@ -45,5 +45,3 @@ export CFLAGS="%{optflags}"
 
 %clean
 %{__rm} -rf %{buildroot}
-
-
