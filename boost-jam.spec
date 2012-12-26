@@ -1,9 +1,12 @@
+# rpmlint error
+%debug_package %{nil}
+
 Summary:	Build tool for Boost libraries
 Name:		boost-jam
 Version:	3.1.18
 Release:	3
-License: 	Boost
-Group: 		Development/Other
+License:	Boost
+Group:		Development/Other
 URL:		http://www.boost.org/
 Source0:	http://download.sourceforge.net/boost/%{name}-%{version}.tgz
 Buildrequires:	byacc
