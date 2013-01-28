@@ -1,5 +1,5 @@
 # rpmlint error
-%define	%debug_package %{nil}
+%define	debug_package %{nil}
 
 Summary:	Build tool for Boost libraries
 Name:		boost-jam
