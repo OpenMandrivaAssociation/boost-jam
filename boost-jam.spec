@@ -4,7 +4,7 @@
 Summary:	Build tool for Boost libraries
 Name:		boost-jam
 Version:	3.1.18
-Release:	3
+Release:	4
 License:	Boost
 Group:		Development/Other
 URL:		http://www.boost.org/
