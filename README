@@ -1,0 +1,2 @@
+This package is obsolete. bjam is provided by boost-build,
+a subpackage of boost, these days.
